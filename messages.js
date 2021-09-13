@@ -10,7 +10,7 @@ const messageGenerator = () => {
 
     const part3 = ['named Arthur, king of the Britons.', 'named Marco Polo.', 'named Bilbo Baggins.'];
 
-    
+    console.log(part1[Math.floor(Math.random() * 3)] + part2[Math.floor(Math.random() * 3)] + part3[Math.floor(Math.random() * 3)]);
 
 }
 
